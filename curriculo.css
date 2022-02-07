@@ -1,0 +1,179 @@
+body {
+    background-color: lightblue;
+}
+
+h3{
+    font-family: 'adobe-clean', 'Adobe Clean', sans-serif;
+}
+
+h1 {
+    color: #355586;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.principal{
+    background-color: white;
+    margin: 0 200px 0 200px;
+    height: 255vh;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.lado_esquerdo{
+    background-color: #355586;
+}
+
+.lado_direito{
+    font-family: 'adobe-clean', 'Adobe Clean', sans-serif;
+}
+
+
+.foto_perfil{
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.titulo_contato{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.titulo_habilidades{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.material-icons.icone_branco{
+    color: white;
+}
+
+.bloco_informacao{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-bottom: 16px;
+    margin-right: 60px;
+    width: 100%;
+    align-items: center;
+}
+
+.descricao{
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    font-family: 'adobe-clean', 'Adobe Clean', sans-serif;
+    margin-left: 16px;
+    text-decoration: none;
+}
+
+.curriculo {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.informacoes_perfil {
+    color: #219ba3;
+    font-family: 'adobe-clean', 'Adobe Clean', sans-serif;
+    text-transform: uppercase;
+
+}
+
+#linkedin {
+    color: white;
+    margin-left: 5px;
+}
+
+.texto_curriculo {
+    font-family:  'adobe-clean', 'Adobe Clean', sans-serif;
+    color: black;
+    margin: 2px;
+    text-align: justify;
+
+}
+
+h4 {
+    color: #355586;
+    font-family: 'adobe-clean', 'Adobe Clean', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.subtitulo {
+    color: #878887;
+    font-family: 'adobe-clean', 'Adobe Clean', sans-serif;
+}
+
+.botao {
+    appearance: none;
+    background-color: #355586;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  
+  .botao:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+  }
+  
+  .botao:hover {
+    background-color: #219ba3;
+  }
+  
+  .botao:focus {
+    box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+    outline: none;
+  }
+  
+  .botao:disabled {
+    background-color: #94d3a2;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+  }
+  
+  .botao:active {
+    background-color: #298e46;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+  }
+
+  .link {
+      text-decoration: none;
+      text-decoration-line: none;
+  }
+
+  .linhas {
+      margin-left: 50px;
+      margin-right: 50px;
+  }
+
+/*
+.botao {
+    transition-duration: 0.4s;
+  }
+  
+  .botao:hover {
+    background-color: #4CAF50; 
+    color: white;
+  }/*
